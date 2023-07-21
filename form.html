@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: auto;
+            width: 700px;
+            padding-left:100px ;
+            background-color: rgb(144, 144, 221);
+        }
+        label { 
+            width:150px;
+            display:inline-block;}
+        .submit{
+            justify-content: center;
+        }
+    </style>
+</head>
+<body><div style="align-content: center;">
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="age">Age:</label>
+        <input type="age" id="age" name="age"><br>
+        <label for="Email">Email:</label> 
+        <input type="email" id="Email" name="Email"><br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+        <label for="dob">DOB</label>
+        <input type="date" id="dob"><br><br>
+      <label for="address">Address</label>
+        <textarea name="address" id="address">Enter address here...</textarea><br><br>
+        <label for="qualification">Qualification</label>
+        <input type="checkbox" id="qualification1" name="qualification1" value="SSLC">
+        <label for="qualification1">SSLC</label> 
+        <input type="checkbox" id="qualification2" name="qualification2" value="HSC">
+        <label for="qualification2">HSC</label>
+        <input type="checkbox" id="qualification3" name="qualification3" value="UG">
+        <label for="qualification3">UG</label>
+        <input type="checkbox" id="qualification4" name="qualification4" value="PG">
+        <label for="qualification4">PG</label><br><br>
+        <label for="district">District</label>
+        <input type="text" id="district" name="district"><br><br>
+        <label for="pic">Image</label>
+        <input type="file" id="pic" name="Profile"><br><br>
+        <label for="username">UserName</label>
+        <input type="email" id="username" name="username"><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"><br>
+        <label for="Cnfrm" >Confirm Password</label>
+<input type="checkbox" id="Cnfrm" name="Password"><br><br>
+<input type="submit" id="submit">
+      </form> </div>
+</body>
+</html>

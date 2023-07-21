@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       nav{background-color: black;
+            
+       
+            padding: 40px;
+    }
+       ul{margin :0;
+        padding:0;
+        float: left;
+        display: flex;}
+        li{list-style-type: none;
+        position: relative;}
+        a{ text-decoration: none;
+            margin-left: 20px;
+            margin-right: 20px;
+            color: red;}
+            a:hover 
+            {
+                background-color: white;
+                padding: 8px;
+                background-size: cover;
+            
+            }
+            ul ul{
+                display: none;
+                position: absolute;
+                top:100%;
+                left:0%;
+                background-color: black;
+                padding: 0%;
+                margin-top: 2%;
+            }
+            li:hover > ul 
+            {
+                background-size: auto;
+                display: block;
+            }
+            ul li
+            {
+                margin-top: 10px;
+                width:100%;
+            }
+
+            li ul a
+            {
+                color:green;
+                            }
+    </style>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li><a href="#">About</a><li></li><li><a href="#">Products</a>
+            <ul><li><a href="#">Engineering</a></li>
+            <li><a href="#">Telecom</a></li>
+        <li><a href="#">Energy</a></li>
+        <li><a href="#">Finance</a></li>
+        <li><a href="#">Consultancy</a></li>    
+        </ul>
+        </li><li><a href="#">Services</a></li><li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+    
+</body>
+</html>
